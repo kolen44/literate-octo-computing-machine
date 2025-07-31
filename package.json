@@ -4,7 +4,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "concurrently \"node start.js\" \"vite\"",
+		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint .",
 		"preview": "vite preview"
@@ -14,9 +14,6 @@
 		"@dnd-kit/sortable": "^10.0.0",
 		"@dnd-kit/utilities": "^3.2.2",
 		"axios": "^1.11.0",
-		"body-parser": "^2.2.0",
-		"cors": "^2.8.5",
-		"express": "^5.1.0",
 		"react": "^19.1.0",
 		"react-beautiful-dnd": "^13.1.1",
 		"react-dom": "^19.1.0",

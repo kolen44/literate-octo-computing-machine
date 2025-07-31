@@ -48,8 +48,7 @@ function App() {
 	const loader = useRef(null)
 	const [noResults, setNoResults] = useState(false)
 
-	// Базовый URL для API — текущий домен с заменой порта на 3001
-	const API_BASE_URL = window.location.origin.replace(/:\d+$/, ':3001')
+	const API_BASE_URL = import.meta.env.VITE_SERVER
 
 	useEffect(() => {
 		loadItems(true)
